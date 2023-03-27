@@ -1,10 +1,10 @@
 package org.text_based_game;
 /*
 This player class is used to allow the player to traverse the map,
-and contains two private room classes and one map class that allows
-the player to know what room they're currently in, what the room they previously
-were in, and a method named move that uses a switch case statement to manipulate
-where the player can and cannot go when navigating through the map
+and interact with items and puzzles found throughout the map.
+It contains methods that handle the various commands the user
+can use to traverse the map, pickup and drop items, solve puzzles,
+and handle anything else the user may use in the game.
 @Abdoulie J NJie
  */
 
