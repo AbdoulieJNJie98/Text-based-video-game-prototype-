@@ -1,6 +1,9 @@
 # Text-based-video-game-prototype-
 A prototype of a text based video game I designed in my software development class 
 
+# Table of Summary
+- [User manual]
+
 # User Manuel
 
 This program is a prototype of a text based game that
@@ -16,27 +19,35 @@ northRoomID,southRoomID eastRoomID,
 westRoomID, itemName
 
 - roomID
+
 Room ID is a integer  used as a key to identify each respective room
 
 - roomVisited
+
 Room visited is a boolean value used to indicate whether a room has been visited or not
 
 - roomDescription
+
 Room Description is a string value that represents the description of the room
 
 - northRoomID
+
 North Room ID is a string value that represents the room ID of the room north of the current room.
 
 - southRoomID
+
 South Room ID is a string value that represents the room ID of the room south of the current room.
 
 - eastRoomID
+
 East Room ID is a string value that represents the room ID of the room east of the current room.
 
 - westRoomID
+
 West Room ID is a string value that represents the room ID of the room west of the current room.
 
 - itemName
+
 Item name in the room class is the name of the item associated with current room object
 
 -> Open the file "Items.txt"
