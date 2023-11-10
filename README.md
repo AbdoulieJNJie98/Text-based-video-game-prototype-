@@ -2,7 +2,9 @@
 A prototype of a text based video game I designed in my software development class 
 
 # Table of Summary
-- [User manual]
+
+- [User manual](#usermanual)
+- [Files](#files)
 
 # User Manuel
 
@@ -10,6 +12,8 @@ This program is a prototype of a text based game that
 reads in a text file and generates a map based on that text file.
 
 There are also text files that hold items and puzzles for the user/player to interact with.
+
+# Files
 
 ## Open the file "rooms.txt"
 
