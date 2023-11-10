@@ -1,41 +1,42 @@
 # Text-based-video-game-prototype-
 A prototype of a text based video game I designed in my software development class 
 
-User Manuel:
+# User Manuel
 
 This program is a prototype of a text based game that
 reads in a text file and generates a map based on that text file.
-There are also text files that hold items and puzzles for the user/player
-to interact with.
 
+There are also text files that hold items and puzzles for the user/player to interact with.
 
--> Open the file "rooms.txt"
+## Open the file "rooms.txt"
 
 Here, you will see that each line is split into 8 parts:
-<roomID>,<roomVisited>,<roomDescription>,<northRoomID>,<southRoomID>,<eastRoomID>,<westRoomID><itemName>
+roomID, roomVisited, roomDescription,
+northRoomID,southRoomID eastRoomID,
+westRoomID, itemName
 
-<roomID>
+- roomID
 Room ID is a integer  used as a key to identify each respective room
 
-<roomVisited>
+- roomVisited
 Room visited is a boolean value used to indicate whether a room has been visited or not
 
-<roomDescription>
+- roomDescription
 Room Description is a string value that represents the description of the room
 
-<northRoomID>
+- northRoomID
 North Room ID is a string value that represents the room ID of the room north of the current room.
 
-<southRoomID>
+- southRoomID
 South Room ID is a string value that represents the room ID of the room south of the current room.
 
-<eastRoomID>
+- eastRoomID
 East Room ID is a string value that represents the room ID of the room east of the current room.
 
-<westRoomID>
+- westRoomID
 West Room ID is a string value that represents the room ID of the room west of the current room.
 
-<itemName>
+- itemName
 Item name in the room class is the name of the item associated with current room object
 
 -> Open the file "Items.txt"
